@@ -6,5 +6,5 @@ class Group < ApplicationRecord
 
   def total_amount
     payment.sum('amount')
-  end  
+  end
 end
