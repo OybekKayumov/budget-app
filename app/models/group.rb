@@ -5,6 +5,6 @@ class Group < ApplicationRecord
   validates :name, :icon, presence: true, length: { maximum: 255 }
 
   def total_amount
-    payment.sum('amount')
+    payments.sum('amount')
   end
 end
