@@ -11,7 +11,7 @@ The **Q Pay** app is going to be helpful to track your expenses and transactions
 
 ## Live Demo
 
-[Live Demo link]()
+[Visit this link](https://budget-app-ror.herokuapp.com/) to interact with the web app
 
 
 # Getting Started
