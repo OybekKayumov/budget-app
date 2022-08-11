@@ -1,24 +1,72 @@
-# README
+# Q Pay
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The **Q Pay** app is going to be helpful to track your expenses and transactions.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby
+- Ruby on Rails
+- PostgreSQL
+- Bootstrap CSS Framework
 
-* System dependencies
+## Live Demo and Presentation
 
-* Configuration
+[Visit this link](https://budget-app-ror.herokuapp.com/) to interact with the web app
 
-* Database creation
+[Short presentation](https://www.loom.com/share/2c0b7493c08d489fb50c9ed9e9a24c3e)
 
-* Database initialization
+# Getting Started
 
-* How to run the test suite
+To get a local copy up and running follow these simple steps.
 
-* Services (job queues, cache servers, search engines, etc.)
+- You can clone this repo by typing `git clone https://github.com/OybekKayumov/budget-app.git` on your terminal.
 
-* Deployment instructions
+- Type `cd budget-app` to access the project on the terminal.
 
-* ...
+- Run `bundle install` to install all the required dependencies.
+
+- Run `rails s` to start a development server.
+
+# Testing
+
+`bundle exec rspec` will run all the tests.
+
+Also, you can run `bundle exec rspec spec/` to run specific tests.
+
+You can also run `RAILS_ENV=test rspec spec/` to run the tests in test mode.
+
+## Errors
+
+If you encounter any errors, run the following commands.
+
+- Run `rails db:drop db:create db:migrate` to drop, create and migrate a new database.
+
+- Run `rubocop && rubocop -A` to check for and fix code errors.
+
+
+## Author
+
+👤 **Oybek Kayumov**
+
+- GitHub: [@OybekKayumov](https://github.com/OybekKayumov)
+- Twitter: [@KayumovOybek](https://twitter.com/KayumovOybek)
+- LinkedIn: [Oybek Kayumov](https://www.linkedin.com/in/oybek-kayumov/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/OybekKayumov/budget-app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse for giving me this chance
+- The design template provider [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)(Sanpscan App).
+
+## 📝 License
+
+This project is [MIT](./LICENCE) licensed.
